@@ -1,0 +1,26 @@
+
+.crm-client-summary-wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+div.crm-client-summary-wrapper .crm-client-photo-wrapper {
+    display: block;
+    overflow: hidden;
+    min-width: 50px;
+    max-width: 50px;
+    text-align: left;
+}
+
+.crm-client-summary-photo {
+    border-radius: 50%;
+    display: block;
+    height: 50px;
+    margin-right: 11px;
+    width: 50px;
+}
+
+.ui-icon.crm-client-summary-photo>i {
+    background-size: cover;
+}
